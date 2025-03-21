@@ -10,9 +10,9 @@ name: Deno
 
 on:
   push:
-    branches: ["canary"]
+    branches: ["deno-deploy"]
   pull_request:
-    branches: ["canary"]
+    branches: ["deno-deploy"]
 
 permissions:
   contents: read
